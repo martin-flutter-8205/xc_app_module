@@ -13,20 +13,20 @@ dependencies:
   # 框架仓库（独立 git 仓库，锁定 main 分支）
   xc_platform:
     git:
-      url: /Users/ppx/Desktop/code/xc_platform
+      url: git@github.com:martin-flutter-8205/xc_platform.git
       ref: main
   xc_ui:
     git:
-      url: /Users/ppx/Desktop/code/xc_ui
+      url: git@github.com:martin-flutter-8205/xc_ui.git
       ref: main
   # 业务包（独立 git 仓库，锁定 main 分支）
   xc_launch:
     git:
-      url: /Users/ppx/Desktop/code/xc_launch
+      url: git@github.com:martin-flutter-8205/xc_launch.git
       ref: main
   xc_index:
     git:
-      url: /Users/ppx/Desktop/code/xc_index
+      url: git@github.com:martin-flutter-8205/xc_index.git
       ref: main
 
 dev_dependencies:
