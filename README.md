@@ -13,9 +13,9 @@ App 装配层（独立 git 仓库）：真正的 App 主体装配在这里完成
 
 | 包 | 来源 | 说明 |
 | --- | --- | --- |
-| `xc_platform` / `xc_ui` | `../xc_framework/packages/`（path，上远程后换 git） | 框架 |
-| `xc_launch` | `../xc_launch`（path，上远程后换 `git: { url, ref: main }`） | 启动页 |
-| `xc_index` | `../xc_index`（path，上远程后换 `git: { url, ref: main }`） | 主框架 |
+| `xc_platform` / `xc_ui` | 独立 git 仓库，`git: { url, ref: main }` | 框架 |
+| `xc_launch` | 独立 git 仓库，`git: { url, ref: main }` | 启动页 |
+| `xc_index` | 独立 git 仓库，`git: { url, ref: main }` | 主框架 |
 
 被 `xc_app`（壳）通过 git 依赖接入：
 
