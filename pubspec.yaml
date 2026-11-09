@@ -1,0 +1,26 @@
+name: xc_app_module
+description: App 装配层：安装各业务 Module、组装 MaterialApp（主题/全局浮层/首屏）。壳工程只调 bootstrap + runApp
+publish_to: none
+version: 0.1.0
+
+environment:
+  sdk: ^3.13.0
+  flutter: ">=3.27.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # 框架包（本地 path，上远程后换 git）
+  xc_platform:
+    path: ../xc_framework/packages/xc_platform
+  xc_ui:
+    path: ../xc_framework/packages/xc_ui
+  # 业务包（独立 git 仓库，本地 path 开发，上远程后换 git + ref）
+  xc_launch:
+    path: ../xc_launch
+  xc_index:
+    path: ../xc_index
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
