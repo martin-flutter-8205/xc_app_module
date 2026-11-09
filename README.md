@@ -22,7 +22,7 @@ App 装配层（独立 git 仓库）：真正的 App 主体装配在这里完成
 ```yaml
 xc_app_module:
   git:
-    url: <本仓库地址>
+    url: git@github.com:martin-flutter-8205/xc_app_module.git
     ref: main
 ```
 
